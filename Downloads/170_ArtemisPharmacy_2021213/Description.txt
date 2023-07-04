@@ -1,0 +1,14 @@
+Artemis Pharmacy Store:
+
+We have created a database to enhance accuracy and precision in a medical store where Pharmacists can keep track of all medicines available and its prescription along with the information of their customers(Patients).
+In deadline 3, using MySQL, we created ten tables of various entities like the product, employees, customers, etc., and stored the relevant information in the form of its attributes.
+
+We have maintained various integrity constraints like:
+	1) Not null: we made necessary attributes like primary keys and others as not null.
+	2) Primary Key: Every table has a unique primary key.
+	3) Foreign key: We have used concepts of the foreign key in various places, like for storing the list of products a customer buys here customer id and product id are used as a foreign key for referencing each other.
+	4) Cascade: We have also handled cases where if we delete or update a foreign key in its main table where it is a primary, then it will edit or delete in all the places where it is used as a foreign key.
+
+Data Population:
+We have used https://www.mockaroo.com/ for generating random data, and then, with the help of python, we converted it into the format which mysql allows for insertion.
+We have generated a minimum of 150 rows of relevant data for every table, which follows the above-mentioned integrity constraints as well.
