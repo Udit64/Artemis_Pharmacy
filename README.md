@@ -10,6 +10,10 @@ Working:
 The website opens to a login page, where one can log in as a user or an administrator and arrive at their respective landing pages. Both have separate privileges and can execute different commands on the site.
 
 Administrator:
+
+![image](https://github.com/Udit64/Artemis_Pharmacy/assets/108218333/1162ed74-42c4-4500-8e78-9dbd89c3c59d)
+
+
    The Administrator has the following privileges:
 Inserting new entries: If the admin chooses this option, they are then prompted to select which table they would like to make an entry in. Depending on the Table, Streamlit takes in the relevant information for its attributes, which is then constructed into a query in Python and then run as an SQL command.
 
@@ -29,6 +33,10 @@ Logout: Allows the administrator to log out from the application.
 
 
 User:
+
+![image](https://github.com/Udit64/Artemis_Pharmacy/assets/108218333/380574a2-1290-4d38-8b3e-0624fc260f2a)
+
+
    The user has the following privileges:
 View Table: View data from selected Tables. (Suppliers, Employees etc are not shown to the customer)
 
