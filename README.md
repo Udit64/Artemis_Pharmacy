@@ -1,5 +1,6 @@
 Front-End Documentation
 
+![image](https://github.com/Udit64/Artemis_Pharmacy/assets/108218333/c3b575b4-b300-4405-aa62-9cc5ad3f5a77)
 
 To implement the pharmacy database structure and use it as an application, we have created the website application using Streamlit, Python and MySQL. 
 Streamlit is used in displaying the results of the MySQL queries, which are computed in Python as the User, both as an Administrator and a Customer, won’t have the knowledge of running SQL commands.
